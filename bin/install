@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Assume OS X development environment
-brew install node
+brew install node wine mono
 npm install
 
-npm install -g js-beautify es-lint
+npm install -g js-beautify es-lint electron-packager

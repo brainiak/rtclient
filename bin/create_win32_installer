@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var electronInstaller = require('electron-winstaller');
+
+resultPromise = electronInstaller.createWindowsInstaller({
+    appDirectory: 'rtclient-win32-x64',
+    outputDirectory: '/tmp/build/installer64',
+    authors: 'My App Inc.'
+  });
+
+resultPromise.then(() => console.log("It worked!"), (e) => console.log(`No dice: ${e.message}`));
