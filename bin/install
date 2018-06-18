@@ -3,3 +3,5 @@
 # Assume OS X development environment
 brew install node
 npm install
+
+npm install -g js-beautify es-lint
