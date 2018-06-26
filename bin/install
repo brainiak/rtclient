@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Assume OS X development environment
+brew install node wine mono
+
+npm install -g gulp js-beautify es-lint yarn
+yarn
